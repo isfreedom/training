@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>培训管理平台</title>
+    <link rel="stylesheet" href="../styles/animate.min.css">
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/comment.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="title">
+
+        点评
+    </div>
+    <div class="list">
+        <ul>
+            <li class="clearfix can"><div class="left name">专题名称写在这里</div><div class="right review"><span>点评</span></div></li>
+            <li class="clearfix see"><div class="left name">专题名称写在这里</div><div class="right has"><span>已点评</span></div></li>
+            <li class="clearfix can"><div class="left name">专题名称写在这里</div><div class="right review"><span>点评</span></div></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <a class="back" href="index.html">返回</a>
+    </div>
+
+    <!-- 评论页面 -->
+    <div class="write animated slideInRight">
+        <div class="title">我要点评</div>
+        <div class="content">
+            <div class="course">
+                <div class="name">专题名称</div>
+                <div class="clearfix teacher">
+                    <div class="right teacher-name">上课老师</div>
+                    <div class="left">2019-10-23 9:00~11:00</div>
+                </div>
+            </div>
+            <div class="choose clearfix">
+                <a class="excellent" href="javascript:;">优</a>
+                <a class="good" href="javascript:;">良</a>
+                <a class="difference" href="javascript:;">差</a>
+            </div>
+            <div class="fill">
+                <textarea placeholder="请留下您的建议" class="txt" name="" id="" cols="30" rows="4"></textarea>
+            </div>
+            <div class="btn">
+                <a href="javascript:;" class="submit">提交</a>
+            </div>
+        </div>
+    </div>
+    <!-- 已点评 -->
+    <div class="has-comment animated slideInRight">
+        <div class="title">评论内容</div>
+        <div class="content">
+            <div class="course">
+                <div class="name">专题名称</div>
+                <div class="clearfix teacher">
+                    <div class="right teacher-name">上课老师</div>
+                    <div class="left">2019-10-23 9:00~11:00</div>
+                </div>
+            </div>
+            <div class="review-content">
+                <div class="score">
+                    <a href="javascript:;">优</a>
+                </div>
+                <div class="con-txt">
+                    评论内容评论内容评论内容评论内容评论内容评论内容
+                </div>
+            </div>
+            <div class="btn">
+                <a href="javascript:;" class="return">返回</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../scripts/jquery-1.12.2.min.js"></script>
+<script src="../scripts/fastclick.js"></script>
+<script src="../scripts/layer/layer.js"></script>
+<script src="../scripts/base.js"></script>
+<script src="../scripts/comment.js"></script>
+</body>
+</html>

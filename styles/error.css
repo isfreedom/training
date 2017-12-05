@@ -1,0 +1,26 @@
+.content{
+    text-align: center;
+}
+.title-pic{
+    padding: 1rem 0;
+}
+.txt{
+    font-size: 16px;
+    padding: 5rem 0;
+}
+.btn{
+    text-align: center;
+}
+.back{
+    display: block;
+    padding: 1rem 0;
+    width: 50%;
+    color: #fff;
+    background: #1dab74;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.back:active{
+    background: #1dab74ba;
+}

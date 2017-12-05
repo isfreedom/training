@@ -1,0 +1,143 @@
+.wrapper{
+    background: #fff;
+    padding-bottom:12%;
+}
+.title{
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    background: url("../images/comment.png") no-repeat center;
+    background-size:100% 100%;
+    padding: 5% 5% 10% 5%;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+.header a:first-child {
+    width: 1.2rem;
+    height: 1.2rem;
+    position: relative;
+}
+.header a:first-child:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin-top: -6px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid;
+    border-bottom: 0;
+    border-right: 0;
+    color: #fff;
+    -moz-transform: rotateZ(-45deg);
+    -o-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+.header a.home {
+    width: 8%;
+}
+.header a.home img{
+    width: 100%;
+}
+.header h3 {
+    flex: 1;
+    /* color: #4d4d4d; */
+    text-align: center;
+    font-size: 20px;
+}
+/* 修改登录密码 */
+.change-pwd{
+    background: #fff;
+    font-size: 16px;
+}
+.phone{
+    text-align: center;
+    padding: 20px 0;
+}
+.phone span{
+    color:#888;
+}
+.main>div{
+    padding: 6% 3% 5% 3%;
+    /*height: 56px;*/
+    border-bottom:1px solid #eee;
+    line-height:22px;
+}
+.main input{
+    /*line-height:24px;*/
+    padding-left:10px;
+    width: 50%;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.main span{
+    width: 25%;
+    display: inline-block;
+}
+.code-pic a{
+    text-align: right;
+    position: relative;
+    top:-5px;
+}
+.code-pic img{
+    width: 75px;
+}
+.sign{
+    width: 25%;
+    display: inline-block;
+    text-align: right;
+    font-size: 14px;
+    position: relative;
+    color: #f79952cf;
+}
+.phone-code .sign::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 1px;
+    height: 100%;
+    background: #eee;
+}
+.main .btn-wrap{
+    border-bottom:none;
+}
+.save{
+    width: 100%;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    background: #ccc;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+.not-null{
+    background: #61c66d;
+}
+.phone-img{
+    text-align:center;
+    padding-top:8%;
+}
+.phone-img span{
+    display:inline-block;
+    /*box-shadow:0 0 10px #ff6a00;*/
+    border-radius:50%;
+    background:#1dab7421;
+    padding:3px;
+}
+.phone-img img{
+    border-radius:50%;
+    width:64px;
+    height:64px;
+}

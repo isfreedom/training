@@ -1,0 +1,71 @@
+.wrapper{
+    background: url("../images/login.png") no-repeat center top;
+}
+.header{
+    padding: 10% 0;
+}
+.header h1{
+    font-size: 3.6rem;
+    color: #fff;
+    text-align: center;
+}
+.main{
+    padding: 20% 0;
+}
+.group{
+    text-align: center;
+    width: 70%;
+    display: flex;
+    margin: 0% auto 8% auto;
+    padding-bottom:3%;
+    border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+.group input{
+    flex: 1;
+    border: none;
+    background:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left:4%;
+    font-size: 16px;
+    color: #fff;
+}
+.group .pic{
+    display: inline-block;
+    width: 2.0rem;
+    height: 2.4rem;
+}
+
+.group img{
+    width: 100%;
+}
+.footer {
+    text-align: center;
+    padding: 8% 0;
+}
+.login{
+    display: inline-block;
+    color: #fff;
+    width: 70%;
+    /*background: linear-gradient(to bottom right, #27d8d0 0%, #3de3b5 100%);*/
+    background: #00c071;
+    height: 4rem;
+    line-height:4rem;
+    font-size: 16px;
+    border-radius: 5rem;
+}
+.login:active{
+    box-shadow: 0 0 10px #27d8d0;
+    color: #fff;
+}
+.sign-up{
+    width: 70%;
+    margin: 0 auto;
+    text-align: right;
+}
+.sign-up a{
+    text-decoration: underline;
+    color: #27d8d0cc;
+    letter-spacing: 1px;
+}

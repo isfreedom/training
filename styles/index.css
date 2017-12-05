@@ -1,0 +1,193 @@
+.top{
+    background: linear-gradient(to right, #61c66d 0%, #41b480 100%);
+    height: 30%;
+}
+.title{
+    text-align: center;
+    padding: 8% 0 5% 0;
+}
+
+.pic{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.11);
+    padding: 0.4rem;
+    margin: 0 auto;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.name span{
+    color: #3eb382;
+    background: rgba(255, 255, 255, 0.72);
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    margin: 3% 0;
+    font-size: 16px;
+}
+.shift{
+    background: #f6faf7;
+    padding: 1.2rem 2rem;
+    font-size: 14px;
+}
+.project-title{
+    width:68%;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;
+}
+.menu li{
+    border-bottom:1px solid #e5e5e5;
+    /*padding: 1rem 1rem;*/
+}
+.menu li a{
+    display: inline-block;
+    width: 100%;
+    padding: 1rem 2rem;
+    color: #000;
+    font-size: 16px;
+    position: relative;
+}
+.menu li a:active{
+    background: rgba(0, 0, 0, 0.06);
+}
+.menu li span{
+    padding-left: 1rem;
+}
+.menu img{
+    width: 2rem;
+    padding-bottom: 0.2rem;
+}
+.menu li a::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    margin-top: -6px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid;
+    border-bottom: 0;
+    border-right: 0;
+    color: #dad9d9;
+    -moz-transform: rotateZ(135deg);
+    -o-transform: rotateZ(135deg);
+    -ms-transform: rotateZ(135deg);
+    -webkit-transform: rotateZ(135deg);
+    transform: rotateZ(135deg);
+}
+.footer{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom:1rem;
+}
+.footer a{
+    display: inline-block;
+    width: 85%;
+    padding:1rem 0;
+    color: #fff;
+    font-size: 16px;
+    background: #61c66d;
+    border-radius: 5px;
+}
+.footer a:active{
+    box-shadow: 0 1px 10px #61c66d;
+}
+/* 已报名待审核 */
+.project-wrap{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fbfcf7;
+    display:none;
+    overflow-y: auto;
+}
+.header{
+    padding: 3% 5%;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    background: #fff;
+}
+.header h3{
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+}
+.header a{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin-top: -6px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid;
+    border-bottom: 0;
+    border-right: 0;
+    color: #828282;
+    -moz-transform: rotateZ(-45deg);
+    -o-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+.content {
+    padding: 5% 6%;
+}
+.mainroom li {
+    position: relative;
+    padding: 3% 5%;
+    background: #fff;
+    box-shadow: 0 5px 20px #f5f5f5;
+    margin-bottom: 1.5rem;
+}
+.mainroom li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+
+}
+.mainroom .adopt:before{
+    background: #78c2a3;
+}
+.mainroom .audit:before{
+    background:#f99fa1;
+}
+.mainroom .quit:before{
+    background:#e5e7ec;
+}
+.mainroom .finish:before {
+    background: skyblue;
+}
+.audit-name{
+    color:#f99fa1;
+}
+.adopt-name{
+    color: #78c2a3;
+}
+.project-name{
+    font-size: 18px;
+    color: #606f76;
+}
+
+/* 根据屏幕大小 */
+@media (min-device-width: 412px) {
+    .title{
+        padding: 10% 0 8% 0;
+    }
+    .shift{
+        padding: 1.5rem 2rem;
+    }
+    .menu li a{
+        padding: 1.3rem 2rem;
+    }
+}
